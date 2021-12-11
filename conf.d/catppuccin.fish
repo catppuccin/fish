@@ -10,7 +10,7 @@ set -l flamingo ecbfbd
 set -l magenta c6aae8
 set -l pink f0afe1
 set -l red e28c8c
-set -l orange f7c196
+set -l peach f7c196
 set -l green b3e1a3
 set -l yellow eadda0
 set -l blue a4b9ef
@@ -18,11 +18,11 @@ set -l gray 6e6c7c
 
 # Syntax Highlighting
 set -g fish_color_normal $foreground
-set -g fish_color_command $orange
+set -g fish_color_command $peach
 set -g fish_color_keyword $pink
 set -g fish_color_quote $green
 set -g fish_color_redirection $red
-set -g fish_color_end $orange
+set -g fish_color_end $peach
 set -g fish_color_error $magenta
 set -g fish_color_param $blue
 set -g fish_color_gray $gray
