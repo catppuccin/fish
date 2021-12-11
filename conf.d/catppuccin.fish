@@ -21,7 +21,7 @@ set -g fish_color_normal $foreground
 set -g fish_color_command $peach
 set -g fish_color_keyword $pink
 set -g fish_color_quote $green
-set -g fish_color_redirection $red
+set -g fish_color_redirection $pink
 set -g fish_color_end $peach
 set -g fish_color_error $red
 set -g fish_color_param $blue
