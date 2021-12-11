@@ -31,6 +31,13 @@ set -g fish_color_search_match --background=$selection
 set -g fish_color_operator $green
 set -g fish_color_escape $blue
 set -g fish_color_autosuggestion $gray
+set -g fish_color_cancel $red
+
+# Prompt
+set -g fish_color_cwd $yellow
+set -g fish_color_user $teal
+set -g fish_color_host $blue
+
 
 # Completion Pager
 set -g fish_pager_color_progress $gray
