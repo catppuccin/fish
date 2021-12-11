@@ -24,7 +24,7 @@ set -g fish_color_quote $green
 set -g fish_color_redirection $pink
 set -g fish_color_end $peach
 set -g fish_color_error $red
-set -g fish_color_param $peach
+set -g fish_color_param $blue
 set -g fish_color_gray $gray
 set -g fish_color_selection --background=$selection
 set -g fish_color_search_match --background=$selection
