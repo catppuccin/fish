@@ -20,7 +20,7 @@ set -l gray 6e6c7c
 set -g fish_color_normal $foreground
 set -g fish_color_command $orange
 set -g fish_color_keyword $pink
-set -g fish_color_quote $yellow
+set -g fish_color_quote $green
 set -g fish_color_redirection $red
 set -g fish_color_end $orange
 set -g fish_color_error $magenta
