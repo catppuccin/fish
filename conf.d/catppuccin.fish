@@ -28,8 +28,8 @@ set -g fish_color_param $blue
 set -g fish_color_gray $gray
 set -g fish_color_selection --background=$selection
 set -g fish_color_search_match --background=$selection
-set -g fish_color_operator $green
-set -g fish_color_escape $blue
+set -g fish_color_operator $pink
+set -g fish_color_escape $flamingo
 set -g fish_color_autosuggestion $gray
 set -g fish_color_cancel $red
 
