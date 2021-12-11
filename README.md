@@ -5,7 +5,7 @@
 <p align="center">Warm and colorful dark theme to show off your vibrant self!</p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/dev/assets/misc/sample.png"/>
+  <img src="https://raw.githubusercontent.com/catppuccin/fish/main/assets/ss.png"/>
 </p>
 
 ## Usage
