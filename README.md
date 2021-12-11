@@ -10,9 +10,9 @@
 
 ## Usage
 
-You can install this theme in several ways:
+### 1. Install it
 
-### Plugin Managers
+#### Plugin Managers
 
 + [Fisher](https://github.com/jorgebucaran/fisher)
 
@@ -26,10 +26,15 @@ $ fisher install catppuccin/fish
 omf install https://github.com/catppuccin/fish
 ```
 
-### Manually
+#### Manually
 
-1. Place [this file]() under `~/.config/fish/conf.d/`
-2. Reload the shell: `exec fish`
+Place [this file](https://github.com/catppuccin/fish/blob/main/conf.d/catppuccin.fish) under `~/.config/fish/conf.d/`
+
+### 2. Reload Fish
+
+```sh
+$ exec fish
+```
 
 ## 💝 Thanks to
 
