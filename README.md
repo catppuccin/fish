@@ -19,7 +19,7 @@
 
 ### 1. Install it
 
-#### Plugin Managers
+#### Plugin Managers:
 
 + [Fisher](https://github.com/jorgebucaran/fisher)
 
@@ -33,9 +33,15 @@ $ fisher install catppuccin/fish
 omf install https://github.com/catppuccin/fish
 ```
 
-#### Manually
+#### Manually:
 
-Place [this file](https://github.com/catppuccin/fish/blob/main/conf.d/catppuccin.fish) under `~/.config/fish/conf.d/`
+- 🌻 Latte: Place [this file](https://github.com/catppuccin/fish/blob/main/conf.d/latte.fish) under `~/.config/fish/conf.d/`
+
+- 🪴 Frappé: Place [this file](https://github.com/catppuccin/fish/blob/main/conf.d/frappe.fish) under `~/.config/fish/conf.d/`
+
+- 🌺 Macchiato: Place [this file](https://github.com/catppuccin/fish/blob/main/conf.d/macchiato.fish) under `~/.config/fish/conf.d/`
+
+- 🌿 Mocha: Place [this file](https://github.com/catppuccin/fish/blob/main/conf.d/mocha.fish) under `~/.config/fish/conf.d/`
 
 ### 2. Reload Fish
 
