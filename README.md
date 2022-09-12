@@ -35,13 +35,13 @@ omf install https://github.com/catppuccin/fish
 
 #### Manually:
 
-- 🌻 Latte: Place [this file](https://github.com/catppuccin/fish/blob/main/conf.d/latte.fish) under `~/.config/fish/conf.d/`
+- 🌻 Latte: Place [this file](https://github.com/catppuccin/fish/blob/main/themes/latte.theme) under `~/.config/fish/themes/`
 
-- 🪴 Frappé: Place [this file](https://github.com/catppuccin/fish/blob/main/conf.d/frappe.fish) under `~/.config/fish/conf.d/`
+- 🪴 Frappé: Place [this file](https://github.com/catppuccin/fish/blob/main/themes/frappe.theme) under `~/.config/fish/themes/`
 
-- 🌺 Macchiato: Place [this file](https://github.com/catppuccin/fish/blob/main/conf.d/macchiato.fish) under `~/.config/fish/conf.d/`
+- 🌺 Macchiato: Place [this file](https://github.com/catppuccin/fish/blob/main/themes/macchiato.theme) under `~/.config/fish/themes/`
 
-- 🌿 Mocha: Place [this file](https://github.com/catppuccin/fish/blob/main/conf.d/mocha.fish) under `~/.config/fish/conf.d/`
+- 🌿 Mocha: Place [this file](https://github.com/catppuccin/fish/blob/main/themes/mocha.theme) under `~/.config/fish/themes/`
 
 ### 2. Reload Fish
 
