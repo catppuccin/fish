@@ -1,45 +1,26 @@
-# Catppuccin color palette
+# name: Catppuccin frappe 
+# url: 'https://github.com/catppuccin/fish'
+# preferred_background: 303446
 
-# --> special
-set -l foreground c6d0f5
-set -l selection 414559
-
-# --> palette
-set -l teal 81c8be
-set -l flamingo eebebe
-set -l mauve ca9ee6
-set -l pink f4b8e4
-set -l red e78284
-set -l peach ef9f76
-set -l green a6d189
-set -l yellow e5c890
-set -l blue 8caaee
-set -l gray 737994
-
-# Syntax Highlighting
-set -g fish_color_normal $foreground
-set -g fish_color_command $blue
-set -g fish_color_param $flamingo
-set -g fish_color_keyword $red
-set -g fish_color_quote $green
-set -g fish_color_redirection $pink
-set -g fish_color_end $peach
-set -g fish_color_error $red
-set -g fish_color_gray $gray
-set -g fish_color_selection --background=$selection
-set -g fish_color_search_match --background=$selection
-set -g fish_color_operator $pink
-set -g fish_color_escape $flamingo
-set -g fish_color_autosuggestion $gray
-set -g fish_color_cancel $red
-
-# Prompt
-set -g fish_color_cwd $yellow
-set -g fish_color_user $teal
-set -g fish_color_host $blue
-
-# Completion Pager
-set -g fish_pager_color_progress $gray
-set -g fish_pager_color_prefix $pink
-set -g fish_pager_color_completion $foreground
-set -g fish_pager_color_description $gray
+fish_color_normal c6d0f5
+fish_color_command 8caaee
+fish_color_param eebebe
+fish_color_keyword e78284
+fish_color_quote a6d189
+fish_color_redirection f4b8e4
+fish_color_end ef9f76
+fish_color_error e78284
+fish_color_gray 737994
+fish_color_selection --background=414559
+fish_color_search_match --background=414559
+fish_color_operator f4b8e4
+ish_color_escape eebebe
+fish_color_autosuggestion 737994
+fish_color_cancel e78284
+fish_color_cwd e5c890
+fish_color_user 81c8be
+fish_color_host 8caaee
+fish_pager_color_progress 737994
+fish_pager_color_prefix f4b8e4
+fish_pager_color_completion c6d0f5
+fish_pager_color_description 737994

@@ -1,45 +1,26 @@
-# Catppuccin color palette
+# name: Catppuccin macchiato 
+# url: 'https://github.com/catppuccin/fish'
+# preferred_background: 24273a
 
-# --> special
-set -l foreground cad3f5
-set -l selection 363a4f
-
-# --> palette
-set -l teal 8bd5ca
-set -l flamingo f0c6c6
-set -l mauve c6a0f6
-set -l pink f5bde6
-set -l red ed8796
-set -l peach f5a97f
-set -l green a6da95
-set -l yellow eed49f
-set -l blue 8aadf4
-set -l gray 6e738d
-
-# Syntax Highlighting
-set -g fish_color_normal $foreground
-set -g fish_color_command $blue
-set -g fish_color_param $flamingo
-set -g fish_color_keyword $red
-set -g fish_color_quote $green
-set -g fish_color_redirection $pink
-set -g fish_color_end $peach
-set -g fish_color_error $red
-set -g fish_color_gray $gray
-set -g fish_color_selection --background=$selection
-set -g fish_color_search_match --background=$selection
-set -g fish_color_operator $pink
-set -g fish_color_escape $flamingo
-set -g fish_color_autosuggestion $gray
-set -g fish_color_cancel $red
-
-# Prompt
-set -g fish_color_cwd $yellow
-set -g fish_color_user $teal
-set -g fish_color_host $blue
-
-# Completion Pager
-set -g fish_pager_color_progress $gray
-set -g fish_pager_color_prefix $pink
-set -g fish_pager_color_completion $foreground
-set -g fish_pager_color_description $gray
+fish_color_normal cad3f5
+fish_color_command 8aadf4
+fish_color_param f0c6c6
+fish_color_keyword ed8796
+fish_color_quote a6da95
+fish_color_redirection f5bde6
+fish_color_end f5a97f
+fish_color_error ed8796
+fish_color_gray 6e738d
+fish_color_selection --background=363a4f
+fish_color_search_match --background=363a4f
+fish_color_operator f5bde6
+fish_color_escape f0c6c6
+fish_color_autosuggestion 6e738d
+fish_color_cancel ed8796
+fish_color_cwd eed49f
+fish_color_user 8bd5ca
+fish_color_host 8aadf4
+fish_pager_color_progress 6e738d
+fish_pager_color_prefix f5bde6
+fish_pager_color_completion cad3f5
+fish_pager_color_description 6e738d
