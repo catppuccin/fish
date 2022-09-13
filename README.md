@@ -43,10 +43,13 @@ omf install https://github.com/catppuccin/fish
 
 - 🌿 Mocha: Place [this file](https://github.com/catppuccin/fish/blob/main/themes/Catppuccin%20Mocha.theme) under `~/.config/fish/themes/`
 
-### 2. Reload Fish
+### 2. Set the theme you like:
 
 ```sh
-$ exec fish
+$ fish_config theme save "Catppuccin Frappe"
+$ fish_config theme save "Catppuccin Latte"
+$ fish_config theme save "Catppuccin Macchiato"
+$ fish_config theme save "Catppuccin Mocha"
 ```
 
 ## 💝 Thanks to
