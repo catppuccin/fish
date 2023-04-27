@@ -14,6 +14,7 @@ fish_color_error d20f39
 fish_color_gray 9ca0b0
 fish_color_selection --background=ccd0da
 fish_color_search_match --background=ccd0da
+fish_color_option 40a02b
 fish_color_operator ea76cb
 fish_color_escape e64553
 fish_color_autosuggestion 9ca0b0
