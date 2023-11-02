@@ -24,7 +24,7 @@
 + [Fisher](https://github.com/jorgebucaran/fisher)
 
 ```sh
-$ fisher install catppuccin/fish
+fisher install catppuccin/fish
 ```
 
 + [Oh My Fish](https://github.com/oh-my-fish/oh-my-fish)
@@ -46,10 +46,10 @@ omf install https://github.com/catppuccin/fish
 ### 2. Set the theme you like:
 
 ```sh
-$ fish_config theme save "Catppuccin Frappe"
-$ fish_config theme save "Catppuccin Latte"
-$ fish_config theme save "Catppuccin Macchiato"
-$ fish_config theme save "Catppuccin Mocha"
+fish_config theme save "Catppuccin Frappe"
+fish_config theme save "Catppuccin Latte"
+fish_config theme save "Catppuccin Macchiato"
+fish_config theme save "Catppuccin Mocha"
 ```
 
 ## 💝 Thanks to
