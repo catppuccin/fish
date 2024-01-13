@@ -46,10 +46,10 @@ omf install https://github.com/catppuccin/fish
 ### 2. Set the theme you like:
 
 ```sh
-fish_config theme save "Catppuccin Frappe"
-fish_config theme save "Catppuccin Latte"
-fish_config theme save "Catppuccin Macchiato"
-fish_config theme save "Catppuccin Mocha"
+fish_config theme choose "Catppuccin Frappe"
+fish_config theme choose "Catppuccin Latte"
+fish_config theme choose "Catppuccin Macchiato"
+fish_config theme choose "Catppuccin Mocha"
 ```
 
 ## 💝 Thanks to
