@@ -1,0 +1,40 @@
+---
+whiskers:
+  version: 2.1.0
+  matrix:
+    - flavor
+  filename: "themes/Catppuccin {{ flavor.identifier | capitalize }}.theme"
+---
+
+{%- set palette = flavor.colors -%}
+
+# name: 'Catppuccin {{ flavor.name }}'
+# url: 'https://github.com/catppuccin/fish'
+# preferred_background: {{ palette.base.hex }}
+
+fish_color_normal {{ palette.text.hex }}
+fish_color_command {{ palette.blue.hex }}
+fish_color_param {{ palette.flamingo.hex }}
+fish_color_keyword {{ palette.red.hex }}
+fish_color_quote {{ palette.green.hex }}
+fish_color_redirection {{ palette.pink.hex }}
+fish_color_end {{ palette.peach.hex }}
+fish_color_comment {{ palette.overlay1.hex }}
+fish_color_error {{ palette.red.hex }}
+fish_color_gray {{ palette.overlay0.hex }}
+fish_color_selection --background={{ palette.surface0.hex }}
+fish_color_search_match --background={{ palette.surface0.hex }}
+fish_color_option {{ palette.green.hex }}
+fish_color_operator {{ palette.pink.hex }}
+fish_color_escape {{ palette.maroon.hex }}
+fish_color_autosuggestion {{ palette.overlay0.hex }}
+fish_color_cancel {{ palette.red.hex }}
+fish_color_cwd {{ palette.yellow.hex }}
+fish_color_user {{ palette.teal.hex }}
+fish_color_host {{ palette.blue.hex }}
+fish_color_host_remote {{ palette.green.hex }}
+fish_color_status {{ palette.red.hex }}
+fish_pager_color_progress {{ palette.overlay0.hex }}
+fish_pager_color_prefix {{ palette.pink.hex }}
+fish_pager_color_completion {{ palette.text.hex }}
+fish_pager_color_description {{ palette.overlay0.hex }}
