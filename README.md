@@ -44,12 +44,6 @@
 fisher install catppuccin/fish
 ```
 
-- [Oh My Fish](https://github.com/oh-my-fish/oh-my-fish)
-
-```sh
-omf install https://github.com/catppuccin/fish
-```
-
 2. Set your Fish theme to your chosen flavor:
 
 ```sh
