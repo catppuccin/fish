@@ -5,7 +5,7 @@
 fish_color_normal 4c4f69
 fish_color_command 1e66f5
 fish_color_param dd7878
-fish_color_keyword d20f39
+fish_color_keyword 8839ef
 fish_color_quote 40a02b
 fish_color_redirection ea76cb
 fish_color_end fe640b
