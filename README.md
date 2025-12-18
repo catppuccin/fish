@@ -47,15 +47,20 @@ fisher install catppuccin/fish
 2. Set your Fish theme to your chosen flavor in `~/.config/fish/config.fish` :
 
 ```sh
-fish_config theme choose "Catppuccin Latte"
 fish_config theme choose "Catppuccin Frappe"
 fish_config theme choose "Catppuccin Macchiato"
 fish_config theme choose "Catppuccin Mocha"
 ```
 
+## FAQ
+
+Q: Where's Latte?
+A: All three themes contain latte as the variant. Install any of them, and then set your system or terminal theme to light mode.
+
 ## 💝 Thanks to
 
 - [Pocco81](https://github.com/Pocco81)
+- [pigeon](https://github.com/backwardspy)
 
 &nbsp;
 
