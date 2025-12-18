@@ -1,17 +1,12 @@
 ---
 whiskers:
-  version: 2.1.0
+  version: "^2.5.1"
   matrix:
-    - flavor
+    - flavor: [mocha, macchiato, frappe]
   filename: "themes/Catppuccin {{ flavor.identifier | capitalize }}.theme"
 ---
-
-{%- set palette = flavor.colors -%}
-
-# name: 'Catppuccin {{ flavor.name }}'
-# url: 'https://github.com/catppuccin/fish'
+{%- macro theme(name, palette) -%}
 # preferred_background: {{ palette.base.hex }}
-
 fish_color_normal {{ palette.text.hex }}
 fish_color_command {{ palette.blue.hex }}
 fish_color_param {{ palette.flamingo.hex }}
@@ -38,3 +33,14 @@ fish_pager_color_progress {{ palette.overlay0.hex }}
 fish_pager_color_prefix {{ palette.pink.hex }}
 fish_pager_color_completion {{ palette.text.hex }}
 fish_pager_color_description {{ palette.overlay0.hex }}
+{%- endmacro -%}
+
+# name: 'Catppuccin {{ flavor.name }}'
+# url: 'https://github.com/catppuccin/fish'
+
+[light]
+{{ self::theme(name="Latte", palette=flavors.latte.colors) }}
+
+[dark]
+{{ self::theme(name=flavor.name, palette=flavor.colors) }}
+
