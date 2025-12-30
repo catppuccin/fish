@@ -44,13 +44,13 @@
 fisher install catppuccin/fish
 ```
 
-2. Set your Fish theme to your chosen flavor:
+2. Set your Fish theme to your chosen flavor in `~/.config/fish/config.fish` :
 
 ```sh
-fish_config theme save "Catppuccin Latte"
-fish_config theme save "Catppuccin Frappe"
-fish_config theme save "Catppuccin Macchiato"
-fish_config theme save "Catppuccin Mocha"
+fish_config theme choose "Catppuccin Latte"
+fish_config theme choose "Catppuccin Frappe"
+fish_config theme choose "Catppuccin Macchiato"
+fish_config theme choose "Catppuccin Mocha"
 ```
 
 ## 💝 Thanks to
