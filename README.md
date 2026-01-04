@@ -55,7 +55,7 @@ fish_config theme choose "Catppuccin Mocha"
 ## FAQ
 
 Q: Where's Latte?
-A: All three themes contain latte as the light variant. Install any of them, and then set your system or terminal theme to light mode.
+A: All three themes contain Latte as the light variant. Install any of them, and then set your system or terminal theme to light mode.
 
 ## 💝 Thanks to
 
