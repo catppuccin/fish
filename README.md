@@ -52,10 +52,13 @@ fish_config theme choose "Catppuccin Macchiato"
 fish_config theme choose "Catppuccin Mocha"
 ```
 
+> [!NOTE]
+> You may want to pass the `--color-theme=dark` argument to ensure Fish shell applies the dark variant of your chosen flavor. For example. `fish_config theme choose "Catppuccin Mocha" --color-theme=dark` for the Mocha flavor.
+
 ## FAQ
 
-Q: Where's Latte?
-A: All three themes contain Latte as the light variant. Install any of them, and then set your system or terminal theme to light mode.
+- Q: **_Where's the Latte theme?_**\
+  A: All three themes contain Latte as the light variant. Install any of them, and then set your system or terminal theme to light mode.
 
 ## 💝 Thanks to
 
