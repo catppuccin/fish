@@ -53,7 +53,7 @@ fish_config theme choose "Catppuccin Mocha"
 ```
 
 > [!NOTE]
-> You may want to pass the `--color-theme=dark` argument to ensure Fish shell applies the dark variant of your chosen flavor. For example. `fish_config theme choose "Catppuccin Mocha" --color-theme=dark` for the Mocha flavor.
+> You may want to pass the `--color-theme=dark` argument to ensure Fish shell applies the dark variant of your chosen flavor. For example, `fish_config theme choose "Catppuccin Mocha" --color-theme=dark` for the Mocha flavor.
 
 ## FAQ
 
