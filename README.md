@@ -53,7 +53,7 @@ fish_config theme choose "Catppuccin Mocha"
 ```
 
 > [!NOTE]
-> You may want to pass the `--color-theme=dark` argument to ensure Fish shell applies the dark variant of your chosen flavor. For example, `fish_config theme choose "Catppuccin Mocha" --color-theme=dark` for the Mocha flavor.
+> If you are upgrading Fish to 4.3.0 or newer from an older version, it is recommended to remove the `~/.config/fish/conf.d/fish_frozen_theme.fish` file, to ensure you have a clean theme setting so Fish can properly apply the light or dark variant of your chosen theme. See [Fish's release notes for 4.3](https://fishshell.com/docs/current/relnotes.html#fish-4-3-0-released-december-28-2025) for more details about the migration.
 
 ## 🙋 FAQ
 
