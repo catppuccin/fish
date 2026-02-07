@@ -45,5 +45,8 @@ fish_pager_color_description {{ palette.overlay0.hex }}
 {{ self::theme(name="Latte", palette=flavors.latte.colors) }}
 
 [dark]
+{{ self::theme(name=flavor.name, palette=flavor.colors) }}
+
+[unknown]
 {% endif -%}
 {{ self::theme(name=flavor.name, palette=flavor.colors) }}
