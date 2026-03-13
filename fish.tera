@@ -4,7 +4,7 @@ whiskers:
   matrix:
     - flavor
     - mode: [dynamic, static]
-  filename: "themes/{% if mode == 'static' %}static/{% endif %}Catppuccin {{ flavor.identifier | capitalize }}.theme"
+  filename: "themes/{% if mode == 'static' %}static/{% endif %}catppuccin-{{ flavor.identifier }}.theme"
   skip_if: "{{ mode == 'dynamic' and flavor.light }}"
 ---
 {%- macro theme(name, palette) -%}
