@@ -55,7 +55,7 @@ fish_config theme choose catppuccin-macchiato
 fish_config theme choose catppuccin-mocha
 
 # or if you only want dark mode:
-fish_config theme choose catppuccin-frappeh --color-theme=dark
+fish_config theme choose catppuccin-frappe --color-theme=dark
 fish_config theme choose catppuccin-macchiato --color-theme=dark
 fish_config theme choose catppuccin-mocha --color-theme=dark
 ```
